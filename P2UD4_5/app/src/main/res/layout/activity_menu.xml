@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="@color/grey_background"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Qué quieres hacer?"
+        android:textSize="24sp"
+        android:textColor="@color/mint_dark"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mi Perfil"
+        style="@style/RoundedButton"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnTareas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gestionar Tareas"
+        style="@style/RoundedButton"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnAjustes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:textColor="@color/mint_dark"
+        android:text="Ajustes"/>
+
+</LinearLayout>

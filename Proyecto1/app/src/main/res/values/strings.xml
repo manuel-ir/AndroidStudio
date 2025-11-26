@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Proyecto1</string>
+    <string name="welcome_text">Bienvenido, no tienes tareas a realizar</string>
+</resources>
