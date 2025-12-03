@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Caso Práctico</string>
+    <string name="titulo_registro">Crear cuenta</string>
+    <string name="hint_usuario">Nombre de usuario</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_registrar">Registrarme</string>
+    <string name="desc_icono_usuario">Imagen de usuario</string>
+    <string name="btn_ir_menu">Ir al menú</string>
+    <string name="titulo_menu">Menú Principal</string>
+    <string name="btn_perfil">Perfil</string>
+    <string name="btn_ajustes">Ajustes</string>
+    <string name="btn_cerrar">Cerrar App</string>
+</resources>

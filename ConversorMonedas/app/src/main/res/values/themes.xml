@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.ConversorMonedas" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/navy_primary</item>
+        <item name="colorPrimaryVariant">@color/navy_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/gold_accent</item>
+        <item name="colorSecondaryVariant">@color/gold_dark</item>
+        <item name="colorOnSecondary">@color/navy_primary</item>
+
+        <item name="android:windowBackground">@color/background_light</item>
+    </style>
+
+    <style name="PillButton" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">50dp</item> <item name="backgroundTint">@color/gold_accent</item>
+        <item name="android:textColor">@color/navy_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingVertical">14dp</item>
+    </style>
+</resources>
